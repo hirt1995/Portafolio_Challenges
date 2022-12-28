@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador/Desencriptador</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="medias.css">
+    </head>
+    <body>
+    <main>
+        <div class="contenedor_supremo">
+            <section class="ingresar_texto">
+                <div class="caja_texto">
+                    <textarea name="encriptar" id="Encriptar" cols="45" rows="15"></textarea>
+                </div>
+                <div class="botones">
+                    <button id="encriptando" class="btn-encriptar" value="oculto" onclick="encriptarTexto()">Encriptar</button>
+                    <button id="desencriptando" class="btn-desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="resultado_proceso">
+                <div class="mostrar_msg" style= "overflow: auto;">
+                    <p id="textoEncriptado"></p>
+                    <img class="not_found" id="no_encontrado" src="images/no_encontrado.png" alt="alt texta" style="visibility: hidden;">
+                </div>
+                
+                    <button id="btn_copiar" class="btn-copy" onclick="copiarAlPortapapeles('textoEncriptado')">Copiar Texto</button>
+
+            </section>
+                
+        </div>
+
+     </main>
+
+
+        <footer class="autoria"></footer>
+
+        
+        <script src="Scripts.js" async defer></script>
+    </body>
+</html>

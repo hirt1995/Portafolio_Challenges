@@ -1,0 +1,248 @@
+
+.contenedor_supremo{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    margin: 0px;
+    background-color: #D3E3FC;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.ingresar_texto{
+  background-color:#D3E3FC;
+  width: 50%;
+  height: 620px;
+  position: relative;
+}
+
+.caja_texto{
+    position: absolute;
+    width: 80%;
+    margin: 10% 10% 10% 10%;
+    height: 350px;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+textarea{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.botones{
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.resultado_proceso{
+    background-color: #77a6f7;
+    height: 600px;
+    width: 25%;
+    position: relative;
+    border-radius:10px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.mostrar_msg{
+  position: relative;
+  /*background-color: black;*/
+  width: 93%;
+  height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.btn-encriptar{
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #2e80eb;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    margin: 10px 10px 10px 10px;
+    }
+    
+    .btn-encriptar:hover {
+      background-color: #1366d6;
+      box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .btn-encriptar:hover:after {
+      opacity: .5;
+    }
+    
+    .btn-encriptar:active {
+      box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .btn-encriptar:active:after {
+      opacity: 1;
+    }
+    
+
+
+    .btn-desencriptar{
+        margin: 10px 10px 10px 10px;
+        appearance: none;
+        backface-visibility: hidden;
+        background-color: #87a6ce;
+        border-radius: 10px;
+        border-style: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        height: 50px;
+        letter-spacing: normal;
+        line-height: 1.5;
+        outline: none;
+        overflow: hidden;
+        padding: 14px 30px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transform: translate3d(0, 0, 0);
+        transition: all .3s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: top;
+        white-space: nowrap;
+        }
+        
+        .btn-desencriptar:hover {
+          background-color: #779ecf;
+          box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+          opacity: 1;
+          transform: translateY(0);
+          transition-duration: .35s;
+        }
+        
+        .btn-desencriptar:hover:after {
+          opacity: .5;
+        }
+        
+        .btn-desencriptar:active {
+          box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+          transform: translateY(2px);
+          transition-duration: .35s;
+        }
+        
+        .btn-desencriptar:active:after {
+          opacity: 1;
+        }
+        
+p{
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.not_found{
+  position: relative;
+  margin-left: 15px;
+  width: 90%;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.btn-copy{
+    margin: 5%;
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #2e80eb;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 90%;
+    }
+    
+    .btn-copy:hover {
+      background-color: #1366d6;
+      box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .btn-copy:hover:after {
+      opacity: .5;
+    }
+    
+    .btn-copy:active {
+      box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .btn-copy:active:after {
+      opacity: 1;
+    }
+

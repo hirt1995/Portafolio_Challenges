@@ -1,0 +1,75 @@
+@media (min-width: 768px) {
+    .btn-encriptar {
+      padding: 14px 22px;
+      width: 176px;
+    }
+
+    .btn-desencriptar {
+        padding: 14px 22px;
+        width: 176px;
+      }
+  }
+  @media screen and (max-width:480px){
+
+    .contenedor_supremo{
+        margin: 0px;
+        display: inline-block;
+        height: 940px;
+    }
+
+    .ingresar_texto{
+        width: 100%;
+        max-width: auto;
+        display: grid;
+        position: relative;
+        height: 535px;
+    }
+
+    .botones{
+        display: inline-grid;
+        padding-top: 385px;
+        margin:auto;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: auto;
+        transform: none;
+    }
+    .btn-encriptar{
+        margin-top: 20px;
+        width: 336px;;
+    }
+    .btn-desencriptar{
+        width: 336px;
+        padding: 13px 19px;
+        margin-top: 0px;
+        margin-bottom: 20px;   
+    }
+    .resultado_proceso{
+        height: 300px;
+        width: 95%;
+        background-color: #D3E3FC;
+        margin: auto;
+        border-radius: 20px;
+
+    }
+    .mostrar_msg{
+        height: 300px;
+        width: 100%;
+        margin: auto;
+        border-radius: 20px;
+        background-color: #77a6f7;
+        
+    }
+
+    p{
+        width: auto;
+    }
+
+
+
+}
+
+
+
+  
